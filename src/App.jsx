@@ -13,14 +13,14 @@ function App() {
   return (
 <main className="relative bg-white">
   <Navbar />
-  <section className="bg-hero1 bg-cover bg-top">
+  <section className="bg-hero2 bg-cover bg-center">
     <Hero />
   </section>
   <section className="padding">
-    <Services />
+    <Pricing />
   </section>
   <section className="padding">
-    <Pricing />
+    <Services />
   </section>
   <section className="padding">
     <Gallery />

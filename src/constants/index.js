@@ -1,14 +1,14 @@
 import { lash1, piercings, piercing1, microblading } from "../assets/images";
 
-export const navLeft = [
-    { href: "#home", label: "Home" },
-    { href: "#services", label: "Services" },
-    { href: "#pricing", label: "Pricing" },
-];
+// export const navLeft = [
+//     { href: "#home", label: "Home" },
+//     { href: "#services", label: "Services" },
+//     { href: "#pricing", label: "Pricing" },
+// ];
 
 export const navRight = [
-    { href: "#gallery", label: "Gallery" },
-    { href: "#appointment", label: "Appointment" },
+    { href: "#home", label: "Home" },
+    { href: "#services", label: "Services" },
     { href: "#contact", label: "Contact" },
 ];
 

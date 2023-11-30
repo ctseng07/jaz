@@ -1,5 +1,6 @@
 import logo from './logo.jpg';
 import hero from './hero-bg.jpg';
+import heropic from './heropic.jpg';
 import hero1 from './hero1.jpg';
 import hero2 from './hero2.jpg';
 import hero3 from './hero3.jpg';
@@ -13,6 +14,7 @@ import lash1 from './lash1.jpg';
 
 export {
     hero,
+    heropic,
     hero1,
     hero2,
     hero3,

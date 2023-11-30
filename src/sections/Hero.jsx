@@ -1,12 +1,13 @@
 import Button from "../components/Button";
 import { rightArrow, instagram } from '../assets/icons';
+import { heropic } from "../assets/images";
 
 const Hero = () => {
   return (
     <section
       id="home"
       className="relative padding-x flex justify-start items-center xl:min-h-screen max-xl:py-40 max-container">
-      <div className="relative xl:w-2/5 flex 
+      {/* <div className="relative xl:w-2/5 flex 
             flex-col w-full max-xl:padding-x">
         <h1 className="font-merriweather max-sm:text-[5px] max-sm:leading-[75px] font-semibold  flex flex-col">
           <span className="text-transform: uppercase text-black text-8xl relative z-10 pr-10">Ntral</span>
@@ -19,7 +20,7 @@ const Hero = () => {
           by ntral.jazz</p>
         <Button label='Explore our services' iconURL={rightArrow} 
         id="services" />
-      </div>
+      </div> */}
     </section>
   )
 }
