@@ -1,12 +1,13 @@
-import { navLeft, navRight } from "../constants";
+import { navRight } from "../constants";
 import { logo } from '../assets/images';
-import { hamburger, arrowDown, user, cart } from '../assets/icons';
+import { hamburger, arrowDown, user, cart, instagram } from '../assets/icons';
+import Button from "../components/Button";
 
 const Navbar = () => {
     return (
         <header className="flex px-5 py-3 bg-light-gray border-b-4 border-gray">
             <nav className="flex justify-between items-center w-full max-container">
-                <ul className="flex justify-center items-center max-lg:hidden">
+                {/* <ul className="flex justify-center items-center max-lg:hidden">
                     {navLeft.map((item) => (
                         <li key={item.label}>
                             <a
@@ -22,11 +23,11 @@ const Navbar = () => {
                             </a>
                         </li>
                     ))}
-                </ul>
+                </ul> */}
                 <a href="#">
                     <img src={logo} className="rounded-full" alt='Logo' width={130} height={29} />
                 </a>
-                <ul className="flex justify-center items-center max-lg:hidden">
+                <ul className="flex justify-around items-center gap-10 max-lg:hidden">
                     {navRight.map((item) => (
                         <li key={item.label}>
                             <a
@@ -35,14 +36,25 @@ const Navbar = () => {
                             >
                                 {item.label}
 
-                                <img src={arrowDown}
+                                {/* <img src={arrowDown}
                                     alt="arrow down"
                                     className="ml-2 rounded-full w-5 h-5"
-                                />
+                                /> */}
                             </a>
                         </li>
                     ))}
+
+                    <img src={instagram}
+                        alt="instagram"
+                        className="rounded-full w-7 h-7 cursor-pointer"
+                    />
+                    <div className="ml-7 font-merriweather">
+                        <Button label='Book an Appointment' backgroundColor="bg-white"
+                     />
+                        </div>
                 </ul>
+
+
 
                 <div className='hidden max-lg:block'>
                     <img src={hamburger} alt="Hamburger"
@@ -52,14 +64,14 @@ const Navbar = () => {
                 </div>
             </nav>
 
-            <div className="flex flex-col justify-around cursor-pointer max-lg:hidden">
-                    <img src={user} alt="user"
+            {/* <div className="flex flex-col justify-around cursor-pointer max-lg:hidden">
+                <img src={user} alt="user"
                     width={30}
                     height={30} />
-                    <img src={cart} alt="cart"
+                <img src={cart} alt="cart"
                     width={30}
                     height={30} />
-                </div>
+            </div> */}
         </header>
     )
 }
