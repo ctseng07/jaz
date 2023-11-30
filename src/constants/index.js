@@ -36,5 +36,17 @@ export const services = [
         label: "Microblading",
         subtext: "Clean & simple 30-40 minutes",
         price: "$56"
-    }
+    },
+    {
+        imgURL: microblading,
+        label: "Microblading",
+        subtext: "Clean & simple 30-40 minutes",
+        price: "$56"
+    },
+    {
+        imgURL: microblading,
+        label: "Microblading",
+        subtext: "Clean & simple 30-40 minutes",
+        price: "$56"
+    },
 ];

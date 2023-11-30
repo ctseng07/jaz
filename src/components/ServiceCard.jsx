@@ -1,9 +1,9 @@
 const ServiceCard = ({ imgURL, label, subtext, price }) => {
   return (
-      <div className="flex-col justify-between sm:w-[550px] sm:min-w[550px] max-xl:w-[350px] max-2xl:w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-10 bg-light-gray max-sm:gap-5 max-sm:flex-col cursor-pointer hover:bg-gray border-2 border-gray">
+      <div className="flex-col justify-between sm:w-[450px] sm:min-w[450px] max-xl:w-[350px] max-2xl:w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-10 bg-light-gray max-sm:gap-5 max-sm:flex-col cursor-pointer hover:bg-gray border-2 border-gray">
           <div className="flex justify-around items-stretch bg-gold">
               <img src={imgURL} alt={label}
-                  className="w-full h-96 max-xl:h-72" />
+                  className="w-full h-72 max-xl:h-60" />
           </div>
 
           <div className="flex justify-around flex-col max-sm:items-center">
